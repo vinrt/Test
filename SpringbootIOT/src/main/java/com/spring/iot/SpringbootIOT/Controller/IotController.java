@@ -21,4 +21,22 @@ public class IotController {
     }
 
 
+    @GetMapping("/iot/sub")
+    public  int sub()
+    {
+        return iotService.sub();
+    }
+
+    @GetMapping("/iot/mul")
+    public  int mul()
+    {
+        return iotService.mul();
+    }
+
+    @GetMapping("/iot/div")
+    public  double div()
+    {
+        return iotService.div();
+    }
+
 }
